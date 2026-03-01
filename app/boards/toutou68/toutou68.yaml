@@ -1,7 +1,4 @@
 
-with:
-  token: ${{ secrets.GITHUB_TOKEN }}
-  
 identifier: toutou68
 name: toutou!68
 type: mcu
@@ -9,6 +6,7 @@ arch: arm
 toolchain:
   - zephyr
   - gnuarmemb
+  - xtools
 supported:
   - adc
   - usb_device
