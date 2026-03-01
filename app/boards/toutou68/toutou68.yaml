@@ -1,3 +1,7 @@
+
+with:
+  token: ${{ secrets.GITHUB_TOKEN }}
+  
 identifier: toutou68
 name: toutou!68
 type: mcu
